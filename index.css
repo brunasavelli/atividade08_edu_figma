@@ -147,8 +147,8 @@
 }
 
 .info input{
-    width: 300px;
-    height: 35px;
+    width: 340px;
+    height: 48px;
     border-radius: 5px;
     margin-top: 5px;
     border-color: #9e9e9e;
@@ -159,8 +159,8 @@
     margin-top: 30px;
 }
 
-.direita{
-    margin-left: 200px;
+.direita, .direita2{
+    margin-left: 60px;
 }
 
 .forms2{
@@ -168,3 +168,50 @@
     flex-direction: column;
     margin-left: 120px;
 }
+
+.em-cima{
+    display: flex;
+    flex-direction: row;
+}
+
+.embaixo select{
+    width: 167px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #9e9e9e;
+    outline: none;
+}
+
+.embaixo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.address input{
+    width: 326px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #9e9e9e;
+    outline: none;
+}
+
+.address{
+    margin-left: 50px;
+}
+
+.code input{
+    width: 147px;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #9e9e9e;
+    outline: none;
+}
+
+.code{
+    margin-left: 50px;
+}
+
