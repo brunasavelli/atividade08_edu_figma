@@ -244,6 +244,11 @@ button{
     font-size: 20px;
     font-weight: bold;
     margin-top: 50px;
+    border: #9e9e9e;
+}
+
+.button{
+
 }
 
 .caixa{
@@ -304,16 +309,138 @@ button{
     background-color: #9e9e9e4b;
     height: 2px;
     width: 750px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: -30px;
     border: none;
+}
+
+.aside .order .infor{
+    display: flex;
+    flex-direction: row;
 }
 
 .aside .order h6{
     margin-top: 25px;
     font-size: 24px;
+    margin-right: 210px;
+    font-weight: 300;
+}
+
+.aside .order .jaqueta{
+    display: flex;
+    flex-direction: row;
 }
 
 .aside .order .trash{
+    display: flex;
+    flex-direction: row;
     justify-content: end;
+}
+
+.foto-jaqueta img{
+    width: 100px;
+}
+
+.aside .order .description p{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: -1px;
+    color: #4f4f4f9a;
+}
+
+.aside .order .description {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    margin-left: 130px;
+    margin-top: -60px;
+}
+
+.quantidade{
+    display: flex;
+    flex-direction: row;
+}
+
+.quantidade h3{
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.quantidade img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.quantity{
+    margin-left: 440px;
+    margin-top: -140px;
+}
+
+.aside .order .quantity h6{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.options-size h5{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.options-color h5{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.box-option{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    width: 130px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box-option select{
+    height: 20px;
+    width: 100px;
+}
+
+.options-color{
+    margin-left: 150px;
+    margin-top: -110px;
+}
+
+.box-option-color{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    width: 80px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box-option-color select{
+    height: 20px;
+    width: 50px;
+}
+
+.order .value h3{
+    font-size: 28px;
+    margin-top: -40px;
+    margin-left: 420px;
 }
