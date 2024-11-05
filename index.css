@@ -247,10 +247,6 @@ button{
     border: #9e9e9e;
 }
 
-.button{
-
-}
-
 .caixa{
     border-width: 2px;
     border-style: solid;
@@ -443,4 +439,22 @@ button{
     font-size: 28px;
     margin-top: -40px;
     margin-left: 420px;
+}
+
+.aside .order .subtotal h6{
+    font-size: 16px;
+}
+
+.aside .order .subtotal h5{
+    font-size: 16px;
+    color: #9e9e9e;
+    margin-left: 440px;
+    margin-top: -20px;
+}
+
+.aside .order .valor h6{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 420px;
+    margin-top: -20px;
 }
