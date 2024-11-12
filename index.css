@@ -295,7 +295,7 @@ button{
 .aside .order{
     display: flex;
     flex-direction: column;
-    margin-top: 180px;
+    margin-top: 90px;
     margin-left: 100px;
     font-size: 30px;
     color: #4F4F4F;
